@@ -1,0 +1,25 @@
+:root {
+    --dark: #212121;
+    --light: #F9F3F1;
+    --light-red: #800C07;
+    --dark-red: #76230E;
+}
+
+.itachi {
+    background-image: url('../assests/itachi.jpg');
+    background-size: 70rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-position-x: -1%;
+    background-position-y: 5%;
+    background-color: var(--dark);
+}
+
+.avatar {
+    padding-top: 13rem;
+    padding-left: 13rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

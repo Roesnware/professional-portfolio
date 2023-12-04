@@ -1,5 +1,6 @@
 // import header component
 import Header from './Header/Header'
+import Home from './Home/Home';
 
 // app component
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <Home />
     </div>
   )
 };
