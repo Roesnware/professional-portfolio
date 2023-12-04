@@ -3,6 +3,30 @@
     --light: #F9F3F1;
     --light-red: #800C07;
     --dark-red: #76230E;
+    --black: black;
+}
+
+.content {
+    padding-top: 13rem;
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.introText {
+    color: var(--light);
+    font-size: 2.1rem;
+    z-index: 10000;
+}
+
+.name {
+    font-size: 5.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px var(--light-red);
+    padding-left: .3rem;
+    padding-right: .7rem;
 }
 
 .itachi {
@@ -19,8 +43,6 @@
 }
 
 .avatar {
-    padding-top: 13rem;
-    padding-left: 13rem;
     height: 100px;
     width: 100px;
     border-radius: 50%;
