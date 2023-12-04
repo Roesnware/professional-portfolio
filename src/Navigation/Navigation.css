@@ -1,0 +1,62 @@
+:root {
+    --dark: #212121;
+    --light: #F9F3F1;
+    --light-red: #800C07;
+    --dark-red: #76230E;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+li a {
+    position: relative;
+    margin: 0 10px;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 600ms;
+}
+
+figure {
+    width: 4rem;
+    height: 5.3rem;
+    border-radius: .5rem;
+    background-image: url('../assests/images/itachi.jpg');
+    background-size: cover;
+    background-repeat: none;
+    border: 1px solid var(--light);
+}
+
+a:hover {
+    color: var(--light-red);
+    text-shadow: var(--light-red) .3rem .3rem 1rem;
+}
+
+.navContainer {
+    align-items: center;
+    padding: 1.25rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-btn {
+    color: var(--light);
+    background-color: var(--light-red);
+    border-radius: 1.4rem;
+}
+
+.resume-btn:hover {
+    color: var(--dark);
+    text-shadow: var(--dark) .3rem .3rem 1rem;
+}
+
+.navList {
+    padding-right: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navListItem {
+    padding: 1rem;
+}
