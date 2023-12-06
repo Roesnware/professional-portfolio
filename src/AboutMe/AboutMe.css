@@ -1,0 +1,137 @@
+.aboutMe {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textCent {
+    text-align: center;
+}
+
+.aboutMeText {
+    color: var(--light);
+    font-size: 1.8rem;
+    padding-bottom: .6rem;
+    padding-top: 6rem;
+    text-decoration: underline;
+}
+
+.skills {
+    width: 100%;
+    color: var(--light);
+    font-size: 1.8rem;
+    padding-bottom: .6rem; 
+    text-align: left;
+    text-decoration: underline;
+}
+
+.textUnder {
+    border-bottom: 2px solid var(--black);
+    padding-bottom: .7rem;
+}
+
+.frontCont {
+    padding-bottom: 4rem;
+}
+
+.skillsCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--light);
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+    font-size: 1.6rem;
+    color: var(--light);
+}
+
+:root {
+    --dark: #212121;
+    --light: #F9F3F1;
+    --light-red: #800C07;
+    --dark-red: rgba(230, 85, 49, 0.521);
+    --black: rgb(5, 5, 5);
+}
+
+.scroller {
+    max-width: 600px;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: 1rem;
+    background: var(--dark-red);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--light-red);
+}
+
+.blur4 {
+    left: 10rem;
+    top: 20rem;
+    box-shadow: 100px 200px 900px 70px var(--light-red)
+}
+
+.blur5 {
+    right: 4rem;
+    bottom: 15rem;
+    box-shadow: 0 100px 1000px 100px var(--light-red)
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg,
+            transparent,
+            white 20%,
+            white 80%,
+            transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}

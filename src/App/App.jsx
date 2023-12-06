@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 
 // import home component
 import Home from '../Home/Home';
+import AboutMe from '../AboutMe/AboutMe';
 
 // import stylesheet
 import './App.css'
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header />
-      <Home />
+      <AboutMe />
       <Footer />
     </div>
   )

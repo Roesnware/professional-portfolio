@@ -1,16 +1,24 @@
-import './Home.css'
+// import typewrite hook 
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
+// import stylesheet
+import './Home.css'
+
+// hom component
 const Home = () => {
+    // brackets
     const start = '{ '
     const end = ' }'
 
+    // type writeer hook
     const [typeEffect] = useTypewriter({
         words: ['web developer', 'problem solver', 'anime enthusiast', 'team player'],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 40
     })
+
+    // return 
     return (
         <div className='body'>
             <div className='blur blur1'></div>
@@ -39,4 +47,5 @@ const Home = () => {
     );
 }
 
+// export component
 export default Home;

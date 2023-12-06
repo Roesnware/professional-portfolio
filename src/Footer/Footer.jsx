@@ -1,22 +1,22 @@
 // imporet stylesheet
 import './Footer.css'
 
-// header component 
+// footer component 
 const Footer = () => {
     return (
-        <footer>
-            <ul className='footer'>
+        <footer className='footer'>
+            <ul className='footerCont'>
                 <li><a href="https://github.com/Roesnware">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                 </a></li>
                 <li><a href="https://www.linkedin.com/in/trae-roy-815a02244/">
-                    <i class="fa-brands fa-linkedin"></i></a></li>
+                    <i className="fa-brands fa-linkedin"></i></a></li>
                 <li><a href="mailto:bubwub04@gmail.com">
-                    <i class="fa-solid fa-envelope"></i></a></li>
+                    <i className="fa-solid fa-envelope"></i></a></li>
             </ul>
         </footer>
     );
 };
 
-// export header
+// export footer
 export default Footer;

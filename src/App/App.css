@@ -1,6 +1,23 @@
+:root {
+    --dark: #212121;
+    --light: #F9F3F1;
+    --light-red: #800C07;
+    --dark-red: #76230E;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+::-moz-selection {
+    color: var(--dark);
+    background: var(--light);
+}
+
+::selection {
+    color: var(--dark);
+    background: var(--light);
 }
