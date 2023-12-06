@@ -33,7 +33,12 @@ a:hover {
     text-shadow: var(--light-red) .3rem .3rem 1rem;
 }
 
+.icon {
+    padding-right: 4rem;
+}
+
 .navContainer {
+    width: 100%;
     align-items: center;
     padding: 1.25rem 1.25rem;
     display: flex;
@@ -44,6 +49,7 @@ a:hover {
     color: var(--light);
     background-color: var(--light-red);
     border-radius: 1.4rem;
+    margin-left: 3rem !important;
 }
 
 .resume-btn:hover {

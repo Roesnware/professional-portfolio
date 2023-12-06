@@ -10,9 +10,16 @@
     font-weight: bolder;
 }
 
-.container {
+.container2 {
+    padding-left: 17rem !important;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+.body {
+    max-width: 80%;
 }
 
 .curly {
@@ -40,8 +47,8 @@
 
 .blur3 {
     top: 0;
-    left: 40%;
-    box-shadow: 0 100px 1000px 70px var(--light-red);
+    left: 30%;
+    box-shadow: 0 100px 1000px 30px var(--light-red);
 }
 
 .content {
@@ -50,6 +57,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100%;
+    width: 100%;
 }
 
 .introText {
@@ -89,4 +97,6 @@
     width: 20rem;
     overflow: hidden;
     border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
 }

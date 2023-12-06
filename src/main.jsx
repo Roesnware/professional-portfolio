@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 // import app
-import App from './App.jsx'
+import App from './App/App'
 
 // import reset style sheet
 import './main.css'

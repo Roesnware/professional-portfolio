@@ -1,13 +1,18 @@
 // import header component
-import Header from './Header/Header'
-import Home from './Home/Home';
+import Header from '../Header/Header'
+
+// import home component
+import Home from '../Home/Home';
+
+// import stylesheet
+import './App.css'
 
 // app component
 const App = () => {
 
   // return 
   return (
-    <div>
+    <div className='container'>
       <Header />
       <Home />
     </div>

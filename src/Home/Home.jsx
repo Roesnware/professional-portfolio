@@ -12,20 +12,20 @@ const Home = () => {
         deleteSpeed: 40
     })
     return (
-        <div>
+        <div className='body'>
             <div className='blur blur1'></div>
             <div className='blur blur3'></div>
             <div className='content'>
                 <div className='avatar'>
                     <div className='memoji'></div>
                 </div>
-                <div className='introText container'>
+                <div className='introText container2'>
                     <div className='curly'>
                         {start}
                     </div>
                     <div className='text'>
                         <h1>Hi my name is <span className='name'>Trae</span></h1>
-                        <h1>Im a <span className='typewriter'>{typeEffect}</span></h1>
+                        <h1>I'm a <span className='typewriter'>{typeEffect}</span></h1>
                     </div>
                     <div className='curly'>
                         {end}
