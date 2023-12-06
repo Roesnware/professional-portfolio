@@ -20,6 +20,7 @@
 
 .body {
     max-width: 80%;
+    position: relative;
 }
 
 .curly {
@@ -40,8 +41,8 @@
 }
 
 .blur2 {
-    top: 20rem;
-    right: 10rem;
+    top: 10rem;
+    right: 5rem;
     box-shadow: 0 100px 1000px 100px var(--light-red);
 }
 

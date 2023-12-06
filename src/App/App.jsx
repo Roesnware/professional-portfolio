@@ -1,5 +1,6 @@
-// import header component
+// import components
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 // import home component
 import Home from '../Home/Home';
@@ -15,6 +16,7 @@ const App = () => {
     <div className='container'>
       <Header />
       <Home />
+      <Footer />
     </div>
   )
 };

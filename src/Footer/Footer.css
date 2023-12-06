@@ -1,0 +1,18 @@
+.footer {
+    padding-top: 10rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between; 
+    padding-bottom: 1rem;
+}
+
+.footer li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer li a {
+    font-size: 1.7rem;
+    padding: 2rem;
+}

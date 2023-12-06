@@ -19,16 +19,18 @@ const Home = () => {
                 <div className='avatar'>
                     <div className='memoji'></div>
                 </div>
-                <div className='introText container2'>
-                    <div className='curly'>
-                        {start}
-                    </div>
-                    <div className='text'>
-                        <h1>Hi my name is <span className='name'>Trae</span></h1>
-                        <h1>I'm a <span className='typewriter'>{typeEffect}</span></h1>
-                    </div>
-                    <div className='curly'>
-                        {end}
+                <div>
+                    <div className='introText container2'>
+                        <div className='curly'>
+                            {start}
+                        </div>
+                        <div className='text'>
+                            <h1>Hi my name is <span className='name'>Trae</span></h1>
+                            <h1>I'm a <span className='typewriter'>{typeEffect}</span></h1>
+                        </div>
+                        <div className='curly'>
+                            {end}
+                        </div>
                     </div>
                 </div>
             </div>
