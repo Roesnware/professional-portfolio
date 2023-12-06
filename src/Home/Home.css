@@ -52,10 +52,10 @@
 }
 
 .content {
-    padding-top: 13rem;
+    padding-top: 10rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
@@ -87,15 +87,14 @@
     width: 100%;
     aspect-ratio: 1;
     background-size: cover;
-    background-color: var(--dark);
+    background-position-y: -2rem;
 }
 
 .avatar {
     border: 3px solid var(--light-red);
     box-shadow: .5rem .5rem 1rem .5rem var(--light-red);
     height: 20rem;
-    width: 20rem;
-    overflow: hidden;
+    aspect-ratio: 1;
     border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
