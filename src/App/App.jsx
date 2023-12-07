@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer'
 // import home component
 import Home from '../Home/Home';
 import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../ContactMe/ContactMe'
 
 // import stylesheet
 import './App.css'
@@ -16,7 +17,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header />
-      <AboutMe />
+      <ContactMe />
       <Footer />
     </div>
   )

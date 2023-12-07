@@ -6,3 +6,62 @@
     --black: rgb(5, 5, 5);
 }
 
+.formCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.formInput {
+    font-size: 1.5rem;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 30rem;
+    aspect-ratio: 1;
+    box-shadow: 10px 10px 900px 5px var(--light-red);
+    border: 2px solid var(--black);
+}
+
+.formInput p {
+    border-bottom: 1px solid var(--dark);
+    padding: 1rem;
+}
+
+.formInput input {
+    padding: 1rem;
+    margin: 1rem;
+    width: 26rem;
+}
+
+.blur6 {
+    right: 15rem;
+    box-shadow: 0 100px 1000px 50px var(--light-red);
+}
+
+.blur7 {
+    top: 0;
+    left: 5rem;
+}
+
+.blur8 {
+    bottom: 0;
+    left: 15rem;
+}
+
+#message {
+    padding-bottom: 10rem;
+}
+
+.formInput button {
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: 40%;
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 2rem;
+}
