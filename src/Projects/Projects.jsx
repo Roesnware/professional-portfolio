@@ -9,7 +9,7 @@ const Projects = () => {
             <div className='ProjCont'>
                 <div className='Project'>
                     <div className='ProjDemo'>
-                        <div>
+                        <div className='Img'>
                             <img src="" alt="" />
                         </div>
                         <div className='ProjTech'></div>
