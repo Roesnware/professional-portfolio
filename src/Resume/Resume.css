@@ -10,3 +10,17 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
+
+.blur9 {
+    top: 15rem;
+    left: 0rem;
+}
+
+.blur10 {
+    right: 19rem;
+    bottom: 8rem;
+}
+
+.blur11 {
+    box-shadow: 0 0 1000px 80px var(--light-red);
+}
