@@ -1,3 +1,10 @@
+:root {
+    --dark: #212121;
+    --light: #F9F3F1;
+    --light-red: #800C07;
+    --dark-red: #76230E;
+}
+
 .Projects {
     height: 100%;
     width: 80%;
@@ -18,18 +25,17 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    border-radius: 1rem;
+    background: var(--light);
+    margin: 1rem;
+    color: var(--dark);
+    box-shadow: 0 0 20px 0 var(--light-red);
 }
 
 .Img {
     width: 100%;
     height: 100%;
-}
-
-.Project1 {
-    background-size: cover;
-    background-image: url("../assests/images/proj_2_demoo.JPG");
-    width: 100%;
-    height: 100%;
+    border-radius: 1rem;
 }
 
 img{
@@ -42,10 +48,81 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
     padding: 1rem;
+    margin-top: .7rem;
+}
+
+.links{
+    display: flex;
+    padding-top: .5rem  ;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .ProjDemo {
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project1 {
+    background-image: url('../assests/images/proj_2_demoo.JPG');
+}
+
+.note {
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: grey;
+}
+
+.project2 {
+    background-image: url('../assests/images/tech_blog_demo.JPG');
+}
+
+.project3 {
+    background-image: url('../assests/images/project_1_demo.png');
+}
+
+.project4 {
+    background-image: url('../assests/images/project_3_demo.png');
+}
+
+.projectImage {
+    width: 100%;
+    aspect-ratio: 1;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.ProjTech {
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.ProjDetails a {
+    color: var(--light-red);
+}
+
+.blur13 {
+    top: 0;
+    left: 0;
+}
+
+.blur14 {
+    bottom: 0;
+    left: 40rem;
+}
+
+.blur15 {
+    top: 0;
+    right: 24rem;
+}
+
+.blur16 {
+    bottom: 35rem;
+    right: 24rem;
 }

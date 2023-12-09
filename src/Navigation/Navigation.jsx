@@ -9,6 +9,7 @@ const Navigation = () => {
             <div className='icon'>
                 <figure></figure>
             </div>
+            <div><h1 className='psuedoName'>Roesnware</h1></div>
             <div>
                 <ul className="navList">
                     <li><a href="" className="navListItem">.home()</a></li>
