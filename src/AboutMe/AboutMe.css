@@ -44,6 +44,10 @@
     color: var(--light);
 }
 
+.div {
+    width: fit-content;
+}
+
 .flex {
     width: 100%;
     display: flex;

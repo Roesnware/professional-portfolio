@@ -21,9 +21,7 @@ const AboutMe = () => {
         });
     }
 
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-        addAnimation();
-    }
+    addAnimation();
 
     // return 
     return (
@@ -32,11 +30,11 @@ const AboutMe = () => {
             <div>
                 <h1 className='aboutMeText'>About Me</h1>
                 <div className='flex'>
-                    <p>Hey there, I am a motivated web developer, who enjoys creating innovative and beautiful solutions to problems. I am pursuing a Computer Science Bachelors Degree, I also recently graduated from a Fullstack web development bootcamp. I love developing and learning new technologies with a little anime on the side.</p>
+                    <p>Hey there, my psuedoname is Roesnware, I am a motivated web developer, who enjoys creating innovative and beautiful solutions to problems. I am pursuing a Computer Science Bachelors Degree, I also recently graduated from a Fullstack web development bootcamp. I love developing and learning new technologies with a little anime on the side.</p>
                 </div>
                 <h1 className='skills'>Skills</h1>
             </div>
-            <div>
+            <div className='div'>
                 <br />
                 <div className='skillsCont'>
                     <div className='frontCont'>
