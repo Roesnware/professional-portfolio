@@ -1,13 +1,9 @@
+// import lib 
+import { Outlet } from 'react-router-dom';
+
 // import components
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-
-// import home component
-import Home from '../Home/Home';
-import AboutMe from '../AboutMe/AboutMe';
-import ContactMe from '../ContactMe/ContactMe'
-import Resume from '../Resume/Resume'
-import Projects from '../Projects/Projects'
 
 // import stylesheet
 import './App.css'
@@ -19,7 +15,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header />
-      <Projects />
+      <Outlet />
       <Footer />
     </div>
   )
