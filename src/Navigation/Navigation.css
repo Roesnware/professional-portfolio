@@ -35,7 +35,7 @@ figure {
     border: 1px solid var(--light);
 }
 
-a:hover {
+a:hover, .active a{
     color: var(--light-red);
     text-shadow: var(--light-red) .3rem .3rem 1rem;
 }
