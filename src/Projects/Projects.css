@@ -18,10 +18,16 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    width: 100%;
 }
 
 .Img {
+    width: 100%;
+    height: 100%;
+}
+
+.Project1 {
+    background-size: cover;
+    background-image: url("../assests/images/proj_2_demoo.JPG");
     width: 100%;
     height: 100%;
 }
@@ -37,4 +43,9 @@ img{
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+}
+
+.ProjDemo {
+    height: 20rem;
+    width: 20rem;
 }
