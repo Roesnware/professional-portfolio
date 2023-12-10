@@ -1,8 +1,29 @@
-# React + Vite
+# Professional Portfolio 
+## Description
+    
+    I want to create an app that lets me dispaly myself and my work to potential employeers!
+    Recruiters/employers are now able to go to my page and see a professional layout of me and my work to see if i'm a good candidate for them. I learned React and a few unique libraries it offers as well as react router.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Demo](#demo)
+- [Report](#report)
+- [Questions](#questions)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo 
+
+![demo1]()
+
+## Report
+
+    To report issues please refer to my contact section.
+
+## Questions
+
+    Contact me for any additional questions: Github- Roesnware Email- bubwub04@gmail.com
+    
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
